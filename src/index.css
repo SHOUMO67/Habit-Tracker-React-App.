@@ -1,0 +1,199 @@
+/* style add for all element */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}a:hover{
+  color: white;
+}
+
+/* style for body */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+  color: white;
+}
+
+/* style root div */
+#root{
+  width: 77%;
+  border: 1px solid #eee9e9;
+  border-radius: 27px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+box-shadow: 12px 9px 61px 19px rgba(0, 183, 255, 0.666);
+}
+
+/* style navbar component ---------------------------------*/
+.navbar{
+  align-items: center;
+  display: flex;
+  height: 100px;
+  padding: 0px 16px;
+  justify-content: space-between;
+  border-bottom: 1px solid #f9f7f7;
+}
+.right-nav{
+  display: flex;
+  align-items: center;
+}
+.right-nav h5{
+  color: #f9f4f4;
+  margin-right: 30px;
+}
+.addhabit-btn{
+
+  cursor: pointer;
+  color: white;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #1ef2d9 100%);
+
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 15px;
+}
+/* modal */
+.modal-content{
+  background-color: #f02699;
+background-image: linear-gradient(225deg, #356dc6 0%, #7923e9 50%, #2d95dd 100%);
+
+}
+.modal-header{
+  border: none;
+}
+.modal-footer{
+  border: none;
+}
+/* ---------------------------------------------------- */
+
+/* habits components style------------------------------ */
+.habits{
+  width: 100%;
+}
+
+/* habit under habits component */
+.habit{
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  transition: .7s ease-in-out;
+}
+.habit:hover{
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21c6fd 0%, #ff21ff 100%);
+
+}
+.habit-left{
+  display: flex;
+  align-items: center;
+}
+.habit-left i{
+  color: #e6ebed;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #fde63a;
+  margin-right: 10px;
+}
+.day-complete{
+  color: #f3ebef;
+  font-size:small;
+}
+.habit-right{
+  display: flex;
+  align-items: center;
+}
+.log-btn{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  transition: .5s ease-in-out;
+}
+.log-btn:hover{
+  background-color: #52ACFF;
+background-image: linear-gradient(90deg, #52ACFF 25%, #FFE32C 100%);
+
+}
+.log-btn i{
+  margin-right: 5px;
+}
+.fa-trash{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #f41a33;
+}
+/* ------------------------------------------------------*/
+
+/* style week view container --------------------------- */
+.days-container{
+  margin: 67px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* style day view component */
+.day-container{
+  height: 110px;
+  width: 160px;
+  background-color: #0e6af2;
+background-image: linear-gradient(43deg, #0e6af2 0%, #d739cc 46%, #fec65f 100%);
+
+  border-radius: 20px;
+  padding: 5px;
+}
+p{
+  margin: 10px;
+}
+.circle-icon{
+  font-size: 21px;
+  margin: 5px 14px;
+  cursor: pointer;
+}
+.active{
+  color: #fddc1d ;
+}
+.se{
+  background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+  border-radius: 25px;
+
+}
+.s2{
+    margin-top: 25px;
+}
+.sd{
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #2288f4 0%, #FFFB7D 100%);
+  
+}
+.sd2{
+  background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+/* ------------------------------------------------------*/
